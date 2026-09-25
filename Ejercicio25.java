@@ -17,13 +17,13 @@ public class Ejercicio25 {
         Scanner teclado = new Scanner (System.in);
         int suma, producto, pnumero, snumero, tnumero;
         
-        System.out.println("Por favor, introduzca el primer numero: ");
+        System.out.println("Por favor, introduzca el primer numero: "); //introducir primer numero
         pnumero = teclado.nextInt();
         
-        System.out.println("Por favor, introduzca el segundo numero: ");
+        System.out.println("Por favor, introduzca el segundo numero: ");//introducir segundo numero
         snumero = teclado.nextInt();
         
-        System.out.println("Por favor, introduzca el tercer numero: ");
+        System.out.println("Por favor, introduzca el tercer numero: ");//introducir tercer numero
         tnumero = teclado.nextInt();
         
         suma = pnumero + snumero + tnumero;
