@@ -15,19 +15,19 @@ public class Ejercicio25 {
      */
     public static void main(String[] args) {
         Scanner teclado = new Scanner (System.in);
-        int suma, producto, pnumero, snumero, tnumero;
+        double suma, producto, pnumero, snumero, tnumero; //declarar variables
         
         System.out.println("Por favor, introduzca el primer numero: "); //introducir primer numero
-        pnumero = teclado.nextInt();
+        pnumero = teclado.nextDouble();
         
         System.out.println("Por favor, introduzca el segundo numero: ");//introducir segundo numero
-        snumero = teclado.nextInt();
+        snumero = teclado.nextDouble();
         
         System.out.println("Por favor, introduzca el tercer numero: ");//introducir tercer numero
-        tnumero = teclado.nextInt();
+        tnumero = teclado.nextDouble();
         
-        suma = pnumero + snumero + tnumero;
-        producto = pnumero * snumero * tnumero;
+        suma = pnumero + snumero + tnumero; //se suma todos los números
+        producto = pnumero * snumero * tnumero; //se multiplica los productos
         System.out.println("La suma de los numeros introducidos es de: " + suma);
         System.out.println("El producto de los numeros introducidos es: " + producto);
     }
