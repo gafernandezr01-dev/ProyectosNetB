@@ -2,20 +2,23 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package eje3;
+package javaapplicationeje2;
 
 /**
  *
  * @author alumno
  */
-public class Eje3 {
+public class T2Ejercicio2 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int edad=18;
-        int Altura=160;
-        System.out.println("la altura es "+ Altura + "cm " + "y la edad es de " + edad + " anios");
+        float numero1=0.5F;
+        long numero2;
+        float resultado;
+        numero2=178823419991L;
+        resultado=numero1*numero2;
+        System.out.println("El resultado de multiplicar " + numero1 + " y " + numero2 + " es igual a " + resultado);
     }
 }

@@ -1,0 +1,47 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package caritmetica2.java;
+
+/**
+ *
+ * @author alumno
+ */
+public class CAritmetica2Java {
+
+    /**
+     * @author Gustavo
+     * Operaciones Aritméticas
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        int dato1; //Declaro la variable entera dato1
+        int dato2;
+        int dato3, resultado; //declaro, a la vez, dos variables enteras: dato2
+        
+        dato1 = 20; //asigno el valor 20 a la variable dato1
+        dato2 = 10;
+        dato3 = 5;
+        
+        //Suma
+        resultado = dato1 + dato2 + dato3;
+        System.out.println(dato1 + " + " + dato2 + " + " + dato3 + " = " + resultado); /*El metodo println escribe
+        por pantalla tanto el valor de las variables así como las cadenas que están entre 
+        comillas. Para unir los 5 elementos se ha utilizado el operador + */
+        
+        //Resta
+        resultado = dato1 - dato2 - dato3;
+        System.out.println(dato1 + " - " + dato2 + " - " + dato3 + " = " + resultado);
+        
+        //Producto
+        resultado = dato1 * dato2 * dato3;
+        System.out.println(dato1 + " * " + dato2 + " * " + dato3 + " = " + resultado);
+        
+        //Cociente
+        resultado = dato1 / dato2 / dato3;
+        System.out.println(dato1 + " / " + dato2 + " / " + dato3 + " = " + resultado);
+        
+    }
+    
+}
